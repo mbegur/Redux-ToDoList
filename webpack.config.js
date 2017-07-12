@@ -1,9 +1,9 @@
 var path = require('path');
 
 module.exports = {
-  entry: './toDoList.jsx',
+  entry: './frontend/toDoList.jsx',
   output: {
-    filename: './bundle.js',
+    filename: './app/assets/javascripts/bundle.js',
   },
   module: {
     loaders: [
